@@ -1,8 +1,8 @@
 const express = require('express');
 const decamelize = require('decamelize');
 const _ = require('lodash');
-const steem = require('@steemit/steem-js');
-const methodsMap = require('@steemit/steem-js/lib/api/methods.js');
+const steem = require('steem');
+const methodsMap = require('steem/lib/api/methods.js');
 
 const methods = methodsMap.default;
 const router = express.Router();
