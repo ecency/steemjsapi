@@ -8,7 +8,7 @@ const methods = methodsMap.default;
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.redirect('https://steemconnect.com/docs/steemjs');
+  res.redirect('https://github.com/steemit/steem-js/tree/master/doc');
 });
 
 router.post('/rpc', (req, res) => {
