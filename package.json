@@ -12,9 +12,9 @@
     "decamelize": "^2.0.0",
     "express": "^4.16.3",
     "get-parameter-names": "^0.3.0",
-    "hbs": "^4.0.1",
+    "hbs": "^4.1.0",
     "lodash": "^4.17.10",
     "morgan": "^1.9.0",
-    "steem": "^0.7.7"
+    "steem": "^0.7.11"
   }
 }
